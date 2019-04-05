@@ -13,8 +13,7 @@ input.addEventListener('keydown', function(event){
     p.innerText = `Hello ${userInput}, nice to meet you!`;
     greeting.appendChild(p);
   } else {
-    p.innerText = `No name? It is still nice to meet you!`;
-    greeting.appendChild(p);
+    alert('Please enter your name or I will cry.');
   }
     event.preventDefault();
 
